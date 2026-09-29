@@ -8,7 +8,7 @@ The pipeline processes classification data from the Zooniverse
 project's **Easier Count** workflow. It measures volunteer disagreement,
 uncertainty and participant coverage to prioritize images for further review.
 
-*** Review priority is relative to this dataset. It is not the probability that an image is scientifically incorrect, and this project does not estimate atmospheric CO2.**
+**Important:** Review priority is relative to this dataset. It is not the probability that an image is scientifically incorrect, and this project does not estimate atmospheric CO2.
 
 ![Power BI quality overview](docs/images/dashboard_overview.png)
 
@@ -29,12 +29,15 @@ uncertainty and participant coverage to prioritize images for further review.
 
 ## For those who are not familiar with Zooniverse and citizen-science
 
-Citizen science is the scientific research in which the general public (including people with non-scientific backgrounds) helps researchers in collecting information, tracking nature, or solving research problems. Examples include tasks such as counting the spots on a leaf, measuring rainfall, or sorting space photos. Those are then reviewed and used by professional researchers. This type of research relies on the "wisdom of the crowd" and would be impractical or even impossible without the help of the general public. Zooniverse is the world's largest platform for such kinds of research. 
+Citizen science is the scientific research in which the general public (including people with non-scientific backgrounds) helps researchers in collecting information, tracking nature, or solving research problems. Examples include tasks such as counting the spots on a leaf, measuring rainfall, or sorting space photos. 
+Those are then reviewed and used by professional researchers. This type of research relies on the "wisdom of the crowd" and would be impractical or even impossible without the help of the general public. 
+Zooniverse is the world's largest platform for such kinds of research. 
 
 
 ## Why this project exists
 
-Citizen-science datasets can contain repeated submissions, uneven coverage, ambiguous marks and disagreement between volunteers. A simple average can hidethese issues or allow prolific participants to have disproportionate influence.
+Citizen-science datasets can contain repeated submissions, uneven coverage, ambiguous marks and disagreement between volunteers. 
+A simple average can hidethese issues or allow prolific participants to have disproportionate influence.
 
 This project builds a reproducible quality-control process that:
 
