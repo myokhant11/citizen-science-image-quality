@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Private and generated data
+data/raw/
+data/private/
+data/processed/
+*.db
+*.tmp.db
+*.sqlite
+*.sqlite3
+
+# Generated logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Power BI temporary files
+~$*.pbix
+*.pbix.autosave
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
